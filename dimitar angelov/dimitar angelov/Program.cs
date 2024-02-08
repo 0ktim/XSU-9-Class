@@ -1,3 +1,3 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, dimitar angelov!");
-Console.WriteLine("github")
+Console.WriteLine("github");
