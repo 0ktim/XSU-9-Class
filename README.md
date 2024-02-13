@@ -1,4 +1,4 @@
-# <img src="https://media.tenor.com/gtImyJ4ruGgAAAAi/logo-bulgaria.gif" height="100">   СУ "Йордан Йовков" - Сливен
+# <img src="https://media.tenor.com/gtImyJ4ruGgAAAAi/logo-bulgaria.gif" height="100">  **СУ "Йордан Йовков" - Сливен**
 
 ## :man_technologist: Професия: "Приложен програмист" - :mortar_board: 9а клас
 
