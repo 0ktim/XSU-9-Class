@@ -5,9 +5,9 @@
     int[] n1 = { 1, 2, 3, 4, 5 };
     foreach (var item in n1)
     {
-        Console.WriteLine(item);
-    }
-    Console.WriteLine(" Има ли в масива числото:");
+        Console.Write(item + " ");
+    } 
+    Console.Write(" Има ли в масива числото:");
     int[] n = Console.ReadLine().Split(" ").Select(int.Parse).ToArray();
     int sum = 0;
     for (int i = 0; i < n.Length; i++)
