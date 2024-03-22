@@ -6,8 +6,8 @@
         {
             while (true)
             {
-                int[] nums1 = Console.ReadLine().Split(" ").Select(int.Parse).ToArray();
-                int[] nums2 = Console.ReadLine().Split(" ").Select(int.Parse).ToArray();
+                int[] nums1 = Console.ReadLine().Split(", ").Select(int.Parse).ToArray();
+                int[] nums2 = Console.ReadLine().Split(", ").Select(int.Parse).ToArray();
                 Console.Clear();
                 int[] nums3 = new int[nums1.Length + nums2.Length];
                 for (int i = 0; i < nums1.Length; i++)
