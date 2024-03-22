@@ -1,24 +1,40 @@
-﻿namespace _22._03._241
+﻿namespace arrayEx1
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            int[] nums1 = Console.ReadLine().Split(" ").Select(int.Parse).ToArray();
-            int nums2 = 1;
-            for (int i = 0; i < nums1.Length; i++)
+            int[] nums = Console.ReadLine().Split(", ").Select(int.Parse).ToArray();
+            Console.WriteLine();
+            foreach (int num in nums)
             {
-                if (nums1[i] == nums2)
-                {
-                    Console.WriteLine("Има");
-                }
-                else
-                {
-                    Console.WriteLine("Няма");
-                    break;
-                }
-
+                Console.Write($"{num} ");
             }
+            Console.WriteLine();
+            Console.Write("Има ли в масива този елемент: ");
+            int number = int.Parse(Console.ReadLine());
+            bool check = false;
+            foreach (int num in nums)
+            {
+                if (num == number)
+                {
+                    check = true;
+                }
+            }
+            Console.WriteLine();
+            if (check)
+            {
+                Console.WriteLine("Има");
+            }
+            else
+            {
+                Console.WriteLine("Няма");
+            }
+
+
+
+
+
         }
     }
 }
