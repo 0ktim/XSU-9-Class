@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34031.279
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "for loop HOMEWORK", "for loop HOMEWORK\for loop HOMEWORK.csproj", "{EF4A0215-8B70-4BFC-8AD6-072090FEC077}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF4A0215-8B70-4BFC-8AD6-072090FEC077}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF4A0215-8B70-4BFC-8AD6-072090FEC077}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF4A0215-8B70-4BFC-8AD6-072090FEC077}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF4A0215-8B70-4BFC-8AD6-072090FEC077}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {34E12839-C316-46E1-985C-E86F91A768D5}
+	EndGlobalSection
+EndGlobal
