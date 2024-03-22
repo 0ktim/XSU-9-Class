@@ -1,40 +1,37 @@
-﻿namespace arrayEx1
+﻿namespace array
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            int[] nums = Console.ReadLine().Split(", ").Select(int.Parse).ToArray();
-            Console.WriteLine();
-            foreach (int num in nums)
+            while (true)
             {
-                Console.Write($"{num} ");
-            }
-            Console.WriteLine();
-            Console.Write("Има ли в масива този елемент: ");
-            int number = int.Parse(Console.ReadLine());
-            bool check = false;
-            foreach (int num in nums)
-            {
-                if (num == number)
+                int[] nums1 = Console.ReadLine().Split(" ").Select(int.Parse).ToArray();
+                int[] nums2 = Console.ReadLine().Split(" ").Select(int.Parse).ToArray();
+                Console.Clear();
+                int[] nums3 = new int[nums1.Length + nums2.Length];
+                for (int i = 0; i < nums1.Length; i++)
                 {
-                    check = true;
+                    nums3[i] = nums1[i];
                 }
+                for (int j = 0; j < nums2.Length; j++)
+                {
+                    nums3[nums1.Length + j] = nums2[j];
+                }
+                foreach (int num3 in nums3)
+                {
+                    if (num3 == nums3.Length)
+                    {
+                        Console.Write($"{num3}.");
+                    }
+                    else
+                    {
+                        Console.Write($"{num3}, ");
+                    }
+                }
+                Thread.Sleep(1000);
+                Console.Clear();
             }
-            Console.WriteLine();
-            if (check)
-            {
-                Console.WriteLine("Има");
-            }
-            else
-            {
-                Console.WriteLine("Няма");
-            }
-
-
-
-
-
         }
     }
 }
