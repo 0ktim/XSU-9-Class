@@ -3,10 +3,10 @@ int[] n = Console.ReadLine().Split(" ").Select(int.Parse).ToArray();
 int sum = 0;
 for (int i = 0; i < n.Length; i++)
 {
-    sum += n[i];
-    if (sum == n1[i])
+     int t = sum + n1[i];
+    if (n[i] < n1.Length)
     {
         Console.WriteLine("yes"); break;
     }
-    else { Console.WriteLine("no"); break; }
+    else if (n[i] > n1.Length) { Console.WriteLine("no"); break; }
 }
