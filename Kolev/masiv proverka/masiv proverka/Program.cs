@@ -3,12 +3,11 @@
 
 
     int[] n1 = { 1, 2, 3, 4, 5 };
-    Console.Write($" {n1[0]}");
-    Console.Write($" {n1[1]}");
-    Console.Write($" {n1[2]}");
-    Console.Write($" {n1[3]}");
-    Console.WriteLine($" {n1[4]} ");
-    Console.Write("Има ли в масива числото:");
+    foreach (var item in n1)
+    {
+        Console.WriteLine(item);
+    }
+    Console.WriteLine(" Има ли в масива числото:");
     int[] n = Console.ReadLine().Split(" ").Select(int.Parse).ToArray();
     int sum = 0;
     for (int i = 0; i < n.Length; i++)
