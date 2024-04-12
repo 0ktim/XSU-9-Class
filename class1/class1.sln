@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "book", "book\book.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "circle", "circle\circle.csproj", "{08E8A7BC-15B0-4F27-88BA-840C36A0ED20}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "specialistt", "specialistt\specialistt.csproj", "{171A8521-B43C-4BBD-9F54-66C2544F3F82}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{08E8A7BC-15B0-4F27-88BA-840C36A0ED20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{08E8A7BC-15B0-4F27-88BA-840C36A0ED20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{08E8A7BC-15B0-4F27-88BA-840C36A0ED20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{171A8521-B43C-4BBD-9F54-66C2544F3F82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{171A8521-B43C-4BBD-9F54-66C2544F3F82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{171A8521-B43C-4BBD-9F54-66C2544F3F82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{171A8521-B43C-4BBD-9F54-66C2544F3F82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
