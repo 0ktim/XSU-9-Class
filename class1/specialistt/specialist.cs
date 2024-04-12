@@ -61,7 +61,7 @@ namespace specialistt
                 
                 Console.WriteLine();
 
-                Console.WriteLine("Имате право между Учител, Пилот, Философ и Рибар!");
+                Console.WriteLine("Имате право да избирате между Учител, Пилот, Философ и Рибар!");
 
             }
         }
