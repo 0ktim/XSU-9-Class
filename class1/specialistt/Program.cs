@@ -6,7 +6,6 @@ namespace specialistt
     {
         static void Main(string[] args)
         {
-            Console.OutputEncoding = Encoding.UTF8;
 
             specialist specialist = new specialist();
 
