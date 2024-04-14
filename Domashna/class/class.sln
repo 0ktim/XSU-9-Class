@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "circle", "circle\circle.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "specialist", "specialist\specialist.csproj", "{A2E7AE64-5DD6-48D4-9265-650D93920870}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "car", "car\car.csproj", "{0F53FE40-85E3-4210-B2FB-E1A37BB415CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{A2E7AE64-5DD6-48D4-9265-650D93920870}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2E7AE64-5DD6-48D4-9265-650D93920870}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2E7AE64-5DD6-48D4-9265-650D93920870}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F53FE40-85E3-4210-B2FB-E1A37BB415CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F53FE40-85E3-4210-B2FB-E1A37BB415CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F53FE40-85E3-4210-B2FB-E1A37BB415CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F53FE40-85E3-4210-B2FB-E1A37BB415CF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
