@@ -1,0 +1,14 @@
+C:\Users\kaloy\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\net8.0\HumanEx1.exe
+C:\Users\kaloy\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\net8.0\HumanEx1.deps.json
+C:\Users\kaloy\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\net8.0\HumanEx1.runtimeconfig.json
+C:\Users\kaloy\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\net8.0\HumanEx1.dll
+C:\Users\kaloy\source\repos\ConsoleApp2\ConsoleApp2\bin\Debug\net8.0\HumanEx1.pdb
+C:\Users\kaloy\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\HumanEx1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kaloy\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\HumanEx1.AssemblyInfoInputs.cache
+C:\Users\kaloy\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\HumanEx1.AssemblyInfo.cs
+C:\Users\kaloy\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\HumanEx1.csproj.CoreCompileInputs.cache
+C:\Users\kaloy\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\HumanEx1.dll
+C:\Users\kaloy\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\refint\HumanEx1.dll
+C:\Users\kaloy\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\HumanEx1.pdb
+C:\Users\kaloy\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\HumanEx1.genruntimeconfig.cache
+C:\Users\kaloy\source\repos\ConsoleApp2\ConsoleApp2\obj\Debug\net8.0\ref\HumanEx1.dll

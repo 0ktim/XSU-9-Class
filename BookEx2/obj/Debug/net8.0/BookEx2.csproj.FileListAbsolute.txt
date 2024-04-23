@@ -1,0 +1,14 @@
+C:\Users\kaloy\source\repos\ConsoleApp2\BookEx2\bin\Debug\net8.0\BookEx2.exe
+C:\Users\kaloy\source\repos\ConsoleApp2\BookEx2\bin\Debug\net8.0\BookEx2.deps.json
+C:\Users\kaloy\source\repos\ConsoleApp2\BookEx2\bin\Debug\net8.0\BookEx2.runtimeconfig.json
+C:\Users\kaloy\source\repos\ConsoleApp2\BookEx2\bin\Debug\net8.0\BookEx2.dll
+C:\Users\kaloy\source\repos\ConsoleApp2\BookEx2\bin\Debug\net8.0\BookEx2.pdb
+C:\Users\kaloy\source\repos\ConsoleApp2\BookEx2\obj\Debug\net8.0\BookEx2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kaloy\source\repos\ConsoleApp2\BookEx2\obj\Debug\net8.0\BookEx2.AssemblyInfoInputs.cache
+C:\Users\kaloy\source\repos\ConsoleApp2\BookEx2\obj\Debug\net8.0\BookEx2.AssemblyInfo.cs
+C:\Users\kaloy\source\repos\ConsoleApp2\BookEx2\obj\Debug\net8.0\BookEx2.csproj.CoreCompileInputs.cache
+C:\Users\kaloy\source\repos\ConsoleApp2\BookEx2\obj\Debug\net8.0\BookEx2.dll
+C:\Users\kaloy\source\repos\ConsoleApp2\BookEx2\obj\Debug\net8.0\refint\BookEx2.dll
+C:\Users\kaloy\source\repos\ConsoleApp2\BookEx2\obj\Debug\net8.0\BookEx2.pdb
+C:\Users\kaloy\source\repos\ConsoleApp2\BookEx2\obj\Debug\net8.0\BookEx2.genruntimeconfig.cache
+C:\Users\kaloy\source\repos\ConsoleApp2\BookEx2\obj\Debug\net8.0\ref\BookEx2.dll

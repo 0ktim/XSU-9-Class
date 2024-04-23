@@ -1,0 +1,14 @@
+C:\Users\kaloy\source\repos\ConsoleApp2\CircleEx3\obj\Debug\net8.0\CircleEx3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kaloy\source\repos\ConsoleApp2\CircleEx3\obj\Debug\net8.0\CircleEx3.AssemblyInfoInputs.cache
+C:\Users\kaloy\source\repos\ConsoleApp2\CircleEx3\obj\Debug\net8.0\CircleEx3.AssemblyInfo.cs
+C:\Users\kaloy\source\repos\ConsoleApp2\CircleEx3\obj\Debug\net8.0\CircleEx3.csproj.CoreCompileInputs.cache
+C:\Users\kaloy\source\repos\ConsoleApp2\CircleEx3\bin\Debug\net8.0\CircleEx3.exe
+C:\Users\kaloy\source\repos\ConsoleApp2\CircleEx3\bin\Debug\net8.0\CircleEx3.deps.json
+C:\Users\kaloy\source\repos\ConsoleApp2\CircleEx3\bin\Debug\net8.0\CircleEx3.runtimeconfig.json
+C:\Users\kaloy\source\repos\ConsoleApp2\CircleEx3\bin\Debug\net8.0\CircleEx3.dll
+C:\Users\kaloy\source\repos\ConsoleApp2\CircleEx3\bin\Debug\net8.0\CircleEx3.pdb
+C:\Users\kaloy\source\repos\ConsoleApp2\CircleEx3\obj\Debug\net8.0\CircleEx3.dll
+C:\Users\kaloy\source\repos\ConsoleApp2\CircleEx3\obj\Debug\net8.0\refint\CircleEx3.dll
+C:\Users\kaloy\source\repos\ConsoleApp2\CircleEx3\obj\Debug\net8.0\CircleEx3.pdb
+C:\Users\kaloy\source\repos\ConsoleApp2\CircleEx3\obj\Debug\net8.0\CircleEx3.genruntimeconfig.cache
+C:\Users\kaloy\source\repos\ConsoleApp2\CircleEx3\obj\Debug\net8.0\ref\CircleEx3.dll
