@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace _01.Person
+namespace _03.Items
 {
-    internal class Person
+    internal class Item
     {
         public string Name { get; set; }
-        public string Gender { get; set; }
-        public int Age { get; set; } 
+        public int Quantity { get; set; }
+        public double Price { get; set; }
     }
 }
