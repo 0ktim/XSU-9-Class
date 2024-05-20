@@ -1,0 +1,61 @@
+Hello, my name is Gabriela Stefanova and I'm a student in Sliven, Bulgaria.
+      Now I'm studying programming in the best school in this town. <br>
+      Before months i had a course in SoftUni - Basics with C#.<br>
+      That's the programming language that I am learning now. <br>
+      Last year I also studied HTML and CSS. I am the president of the school student council.
+       I have good leadership skills and experience in the field <br> of communication and relationships with people.</strong>
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------
+
+I've worked with a variety of technologies, each offering their own unique challenges and opportunities for growth. 
+      From the core trio of HTML, CSS, and C# to the specialized areas of Arduino and Unity, I immersed myself in the 
+      dynamic world of coding and creation.
+      HTML and CSS were my first experiences in web development, where I learned how to structure and style 
+      digital content. These languages ​​laid the foundation for my understanding of front-end development, 
+      teaching me the importance of clean, semantic markup and elegant design principles. <br> <br>
+      As I delved deeper into the realm of web development, I choosed C# as my primary programming language. 
+      With its versatility and robustness, C# became my tool of choice for building dynamic web applications and backend services.
+      From crafting APIs to developing complex business logic, C# empowered me to bring my ideas to life with efficiency and precision.
+      <br> <br>
+      Canva have played a pivotal role, allowing me to express my creativity and design skills beyond the realm of code. From crafting sleek user interfaces to designing eye-catching promotional materials, Canva has empowered me to elevate my projects and communicate my ideas effectively to a broader audience.
+      <br><br>
+      In conclusion, my experience with programming languages like  C#, CSS, HTML, C++ and applications like 
+      MitApp,  Arduino, Unity, GitHub, and Canva has been a exploration, discovery, and growth. Each tool 
+      has shaped my skills and perspectives in unique ways, propelled me forward on my quest to innovate and 
+      create in the ever-evolving world of technology.
+
+
+--------------------------------------------------------------------------------------------------------------------------
+
+<!-- HTML !-->
+<button class="button-33" role="button">Button 33</button>
+
+/* CSS */
+.button-33 {
+  background-color: #c2fbd7;
+  border-radius: 100px;
+  box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
+  color: green;
+  cursor: pointer;
+  display: inline-block;
+  font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 250ms;
+  border: 0;
+  font-size: 16px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-33:hover {
+  box-shadow: rgba(44,187,99,.35) 0 -25px 18px -14px inset,rgba(44,187,99,.25) 0 1px 2px,rgba(44,187,99,.25) 0 2px 4px,rgba(44,187,99,.25) 0 4px 8px,rgba(44,187,99,.25) 0 8px 16px,rgba(44,187,99,.25) 0 16px 32px;
+  transform: scale(1.05) rotate(-1deg);
+}
