@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeaChess", "SeaChess\SeaChess.csproj", "{DE6CA943-147E-411E-B4DD-D23F3B4482DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeaChess1", "SeaChess1\SeaChess1.csproj", "{A1420CDC-59FC-4B14-8839-ABF2EA8D6079}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE6CA943-147E-411E-B4DD-D23F3B4482DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE6CA943-147E-411E-B4DD-D23F3B4482DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE6CA943-147E-411E-B4DD-D23F3B4482DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE6CA943-147E-411E-B4DD-D23F3B4482DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1420CDC-59FC-4B14-8839-ABF2EA8D6079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1420CDC-59FC-4B14-8839-ABF2EA8D6079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1420CDC-59FC-4B14-8839-ABF2EA8D6079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1420CDC-59FC-4B14-8839-ABF2EA8D6079}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A7FD52C-0247-4401-99E7-B6B708E2C594}
+	EndGlobalSection
+EndGlobal
