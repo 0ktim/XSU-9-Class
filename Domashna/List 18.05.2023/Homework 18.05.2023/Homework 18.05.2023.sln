@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Person", "Person\Person.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movie", "Movie\Movie.csproj", "{D7A4BFCE-76F3-46F6-9F53-49CF4A1B6D44}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "inventory", "inventory\inventory.csproj", "{BA7A6E5E-627F-4D7E-B421-AF9A96B082A6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D7A4BFCE-76F3-46F6-9F53-49CF4A1B6D44}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7A4BFCE-76F3-46F6-9F53-49CF4A1B6D44}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7A4BFCE-76F3-46F6-9F53-49CF4A1B6D44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA7A6E5E-627F-4D7E-B421-AF9A96B082A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA7A6E5E-627F-4D7E-B421-AF9A96B082A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA7A6E5E-627F-4D7E-B421-AF9A96B082A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA7A6E5E-627F-4D7E-B421-AF9A96B082A6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

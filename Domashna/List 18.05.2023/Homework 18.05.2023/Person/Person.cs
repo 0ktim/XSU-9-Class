@@ -24,20 +24,20 @@ namespace Person
             this.Name = name;
             this.Age = age;
             this.Gender = gender;
-            filter();
 
-            void filter () {
-                foreach (var person in gender)
+            void filter(int age,string gender ) {
+                foreach (var people in gender)
                 {
                     if (gender == "Male")
                     {
-                        if (age == 18)
+                        if (age == 25)
                         {
-                            Console.WriteLine(name);break;
-
+                            Console.WriteLine(Name);
                         }
                     }
                 }
+
+
 
             }
 
