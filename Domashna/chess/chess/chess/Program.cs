@@ -4,8 +4,7 @@
     {
         static void Main(string[] args)
         {
-            static void Main(string[] args)
-            {
+            
                 string[,] Chess = {
                                   {"  ", "1 ", "2 ", "3 " },
                                      {"1 ", "_ ", "_ ", "_ " },
