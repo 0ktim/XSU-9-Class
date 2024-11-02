@@ -11,7 +11,7 @@
                                      {"1 ", "_ ", "_ ", "_ " },
                                      {"2 ", "_ ", "_ ", "_ "  },
                                      {"3 ", "_ ", "_ ", "_ " }};
-                string nowplayer = "v";
+                string nowplayer = "V";
                 bool Won = false;
                 while (!Won)
                 {
@@ -52,7 +52,7 @@
                     {
                         Chess[row, col] = nowplayer + " ";
                     }
-                    else if (Chess[row, col] == "v " || Chess[row, col] == "O ")
+                    else if (Chess[row, col] == "V " || Chess[row, col] == "O ")
                     {
                         Console.WriteLine("Моля въведете свободна колона или ред!");
                         Thread.Sleep(1456);
@@ -64,13 +64,13 @@
                 {
 
 
-                    if (nowplayer == "v")
+                    if (nowplayer == "V")
                     {
                         nowplayer = "O";
                     }
                     else
                     {
-                        nowplayer = "v";
+                        nowplayer = "V";
                     }
                 }
                 bool proverkaforwinner()
@@ -98,6 +98,7 @@
             }
         }
     }
-
 }
+
+
     
