@@ -1,0 +1,17 @@
+C:\Users\geri2\Desktop\Menu app\MenuApp\MenuApp\bin\Debug\net8.0-windows\MenuApp.exe
+C:\Users\geri2\Desktop\Menu app\MenuApp\MenuApp\bin\Debug\net8.0-windows\MenuApp.deps.json
+C:\Users\geri2\Desktop\Menu app\MenuApp\MenuApp\bin\Debug\net8.0-windows\MenuApp.runtimeconfig.json
+C:\Users\geri2\Desktop\Menu app\MenuApp\MenuApp\bin\Debug\net8.0-windows\MenuApp.dll
+C:\Users\geri2\Desktop\Menu app\MenuApp\MenuApp\bin\Debug\net8.0-windows\MenuApp.pdb
+C:\Users\geri2\Desktop\Menu app\MenuApp\MenuApp\obj\Debug\net8.0-windows\MenuApp.csproj.GenerateResource.cache
+C:\Users\geri2\Desktop\Menu app\MenuApp\MenuApp\obj\Debug\net8.0-windows\MenuApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\geri2\Desktop\Menu app\MenuApp\MenuApp\obj\Debug\net8.0-windows\MenuApp.AssemblyInfoInputs.cache
+C:\Users\geri2\Desktop\Menu app\MenuApp\MenuApp\obj\Debug\net8.0-windows\MenuApp.AssemblyInfo.cs
+C:\Users\geri2\Desktop\Menu app\MenuApp\MenuApp\obj\Debug\net8.0-windows\MenuApp.csproj.CoreCompileInputs.cache
+C:\Users\geri2\Desktop\Menu app\MenuApp\MenuApp\obj\Debug\net8.0-windows\MenuApp.dll
+C:\Users\geri2\Desktop\Menu app\MenuApp\MenuApp\obj\Debug\net8.0-windows\refint\MenuApp.dll
+C:\Users\geri2\Desktop\Menu app\MenuApp\MenuApp\obj\Debug\net8.0-windows\MenuApp.pdb
+C:\Users\geri2\Desktop\Menu app\MenuApp\MenuApp\obj\Debug\net8.0-windows\MenuApp.genruntimeconfig.cache
+C:\Users\geri2\Desktop\Menu app\MenuApp\MenuApp\obj\Debug\net8.0-windows\ref\MenuApp.dll
+C:\Users\geri2\Desktop\Menu app\MenuApp\MenuApp\obj\Debug\net8.0-windows\MenuApp.Properties.Resources.resources
+C:\Users\geri2\Desktop\Menu app\MenuApp\MenuApp\obj\Debug\net8.0-windows\MenuApp.Menu.resources
