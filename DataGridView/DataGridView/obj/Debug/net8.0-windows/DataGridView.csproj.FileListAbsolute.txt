@@ -1,0 +1,17 @@
+C:\Users\geri2\Desktop\git XSU\XSU-9-Class\DataGridView\DataGridView\bin\Debug\net8.0-windows\DataGridView.exe
+C:\Users\geri2\Desktop\git XSU\XSU-9-Class\DataGridView\DataGridView\bin\Debug\net8.0-windows\DataGridView.deps.json
+C:\Users\geri2\Desktop\git XSU\XSU-9-Class\DataGridView\DataGridView\bin\Debug\net8.0-windows\DataGridView.runtimeconfig.json
+C:\Users\geri2\Desktop\git XSU\XSU-9-Class\DataGridView\DataGridView\bin\Debug\net8.0-windows\DataGridView.dll
+C:\Users\geri2\Desktop\git XSU\XSU-9-Class\DataGridView\DataGridView\bin\Debug\net8.0-windows\DataGridView.pdb
+C:\Users\geri2\Desktop\git XSU\XSU-9-Class\DataGridView\DataGridView\obj\Debug\net8.0-windows\DataGridView.Form1.resources
+C:\Users\geri2\Desktop\git XSU\XSU-9-Class\DataGridView\DataGridView\obj\Debug\net8.0-windows\DataGridView.csproj.GenerateResource.cache
+C:\Users\geri2\Desktop\git XSU\XSU-9-Class\DataGridView\DataGridView\obj\Debug\net8.0-windows\DataGridView.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\geri2\Desktop\git XSU\XSU-9-Class\DataGridView\DataGridView\obj\Debug\net8.0-windows\DataGridView.AssemblyInfoInputs.cache
+C:\Users\geri2\Desktop\git XSU\XSU-9-Class\DataGridView\DataGridView\obj\Debug\net8.0-windows\DataGridView.AssemblyInfo.cs
+C:\Users\geri2\Desktop\git XSU\XSU-9-Class\DataGridView\DataGridView\obj\Debug\net8.0-windows\DataGridView.csproj.CoreCompileInputs.cache
+C:\Users\geri2\Desktop\git XSU\XSU-9-Class\DataGridView\DataGridView\obj\Debug\net8.0-windows\DataGridView.sourcelink.json
+C:\Users\geri2\Desktop\git XSU\XSU-9-Class\DataGridView\DataGridView\obj\Debug\net8.0-windows\DataGridView.dll
+C:\Users\geri2\Desktop\git XSU\XSU-9-Class\DataGridView\DataGridView\obj\Debug\net8.0-windows\refint\DataGridView.dll
+C:\Users\geri2\Desktop\git XSU\XSU-9-Class\DataGridView\DataGridView\obj\Debug\net8.0-windows\DataGridView.pdb
+C:\Users\geri2\Desktop\git XSU\XSU-9-Class\DataGridView\DataGridView\obj\Debug\net8.0-windows\DataGridView.genruntimeconfig.cache
+C:\Users\geri2\Desktop\git XSU\XSU-9-Class\DataGridView\DataGridView\obj\Debug\net8.0-windows\ref\DataGridView.dll
