@@ -1,0 +1,421 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(135deg, #19115d, #3B82F6, #4a2e93);
+    color: #fff;
+    
+}
+
+.robot
+{
+
+    display:flex;
+    align-items: center;
+    height: 150px;
+    top: 300px
+    ;
+    
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header img {
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    position: relative;
+    left: -30px;
+}
+
+nav ul li {
+    margin: 0 15px;
+    position: relative;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    transition: color 0.3s;
+}
+
+nav ul li a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background: #A855F7;
+    transition: width 0.3s;
+}
+
+nav ul li a:hover::after {
+    width: 100%;
+}
+
+nav ul li a:hover {
+    color: #A855F7;
+}
+
+nav ul li:hover {
+    transform: translateY(-2px);
+    transition: transform 0.5s ease;
+}
+
+nav ul li ul {
+    position: absolute;
+    width: auto;
+    white-space: nowrap;
+    top: 100%;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.85);
+    padding: 20px 0;
+    list-style: none;
+    display: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+nav ul li ul li {
+    padding: 20px 15px;
+}
+
+nav ul li ul li a {
+    color: #fff;
+    font-size: 18px;
+}
+
+nav ul li ul li a:hover {
+    color: #A855F7;
+}
+
+nav ul li.open ul {
+    display: block;
+}
+
+
+.banner-img {
+    margin-top: -50px;
+}
+
+.banner {
+    text-align: center;
+    padding: 120px;
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.banner h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin: 0;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.banner p {
+    font-size: 24px;
+    margin: 20px 0;
+    color: #ffffff;
+}
+
+.banner button {
+    padding: 15px 25px;
+    font-size: 25px;
+    margin-top: 50px;
+    color: #fff;
+    background: linear-gradient(135deg, #7329f1, #ab148a);
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.3s, background 0.3s;
+}
+
+.banner button:hover {
+    transform: translateY(-3px);
+    background: linear-gradient(135deg, #803df5, #e035bb);
+}
+
+.section {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #312E81;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink {
+    from, to {
+        border-color: transparent;
+    }
+    50% {
+        border-color: white;
+    }
+}
+
+.section h2 {
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: #ffffff;
+    overflow: hidden; /* Скрие текста, докато се „отпечатва“ */
+    white-space: nowrap; /* Запазва текста на един ред */
+    border-right: 2px solid white; /* Симулира курсор */
+    width: 100; /* Начална ширина */
+    animation: typing 4s steps(58, end), blink 0.6s step-end infinite; /* Ефект на отпечатване и мигащ курсор */
+    animation-iteration-count: 1, 6; /* typing изпълнява 1 цикъл, blink 6 цикъла (3.6 секунди) */
+    animation-fill-mode: forwards; /* Запазва крайното състояние на анимацията */
+
+}
+
+.icon-grid {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.icon-grid div {
+    flex: 1;
+    max-width: 220px;
+    padding: 25px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s, background 0.3s;
+    backdrop-filter: blur(10px);
+    cursor: pointer;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.icon-grid div.show {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.icon-grid div:hover {
+    transform: scale(1.1);
+    background: rgba(255, 255, 255, 0.2);
+}
+
+.icon-grid div img {
+    width: 60px;
+    margin-bottom: 15px;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.5);
+    padding: 60px 80px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+    color: #fff;
+    line-height: 1.8;
+    z-index: 1000;
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+
+.popup img {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.popup h3 {
+    margin-bottom: 20px;
+    font-size: 26px;
+
+}
+
+.popup p {
+    font-size: 22px;
+    text-align: justify;
+
+}
+
+.popup-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 999;
+}
+
+footer {
+    margin-top: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 25px;
+    text-align: center;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+
+
+@media (max-width: 768px) {
+
+
+
+
+.nav-toggle {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+position: absolute;
+top: 10px;
+right: 10px;
+z-index: 1100; /* Уверете се, че е над другите елементи */
+}
+
+.nav-toggle span {
+background: #fff;
+height: 3px;
+width: 25px;
+margin: 4px 0;
+transition: transform 0.3s ease, background 0.3s ease;
+}
+
+
+nav ul {
+display: none;
+flex-direction: column;
+align-items: center;
+background-color: rgba(0, 0, 0, 0.9);
+padding: 20px;
+position: absolute;
+top: 60px;
+width: 110%;
+z-index: 1000;
+opacity: 0;
+transform: scaleY(0);
+transform-origin: top;
+transition: opacity 0.3s ease, transform 0.3s ease;
+
+}
+
+nav ul.active {
+display: flex;
+opacity: 1;
+transform: scaleY(1);
+}
+
+nav ul li {
+margin: 10px 0;
+}
+
+nav ul li ul {
+position: relative;
+top: 0;
+left: 0;
+display: none;
+flex-direction: column;
+background-color: rgba(0, 0, 0, 0.8);
+border-radius: 5px;
+padding: 10px;
+width: 100%;
+}
+
+nav ul li.open ul {
+display: flex;
+}
+
+
+
+.icon-grid {
+flex-wrap: wrap;
+gap: 20px;
+}
+
+.icon-grid div {
+max-width: 150px;
+}
+
+.banner h1 {
+font-size: 36px;
+}
+
+.banner p {
+font-size: 18px;
+}
+
+.banner button {
+font-size: 20px;
+}
+
+header {
+flex-direction: column;
+align-items: center;
+}
+
+header img {
+height: 40px;
+}
+
+footer {
+font-size: 12px;
+}
+
+.section {
+padding: 40px 10px;
+}
+
+.section h2 {
+font-size: 28px;
+}
+
+
+
+
+
+
+
+}
