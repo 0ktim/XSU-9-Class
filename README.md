@@ -85,4 +85,5 @@
 Всеки сътрудник има локално копие на репозиторито.
 
 <img src="https://miro.medium.com/v2/resize:fit:1400/format:webp/1*ylXqYPTqezonRkywhOa6cg.png" width="100%">
+<img src="https://media.licdn.com/dms/image/v2/D4D22AQHR7xLPiHK-zQ/feedshare-shrink_2048_1536/feedshare-shrink_2048_1536/0/1702614832462?e=2147483647&v=beta&t=x9XK4zcBWq3CcUPvWqj9MyedTQAa1GH-23KCcoQJ7wI" width="100%">
 
