@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.LinkedList", "1.LinkedList\1.LinkedList.csproj", "{65330A01-6FDE-4562-A1BD-776E4CF31016}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65330A01-6FDE-4562-A1BD-776E4CF31016}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65330A01-6FDE-4562-A1BD-776E4CF31016}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65330A01-6FDE-4562-A1BD-776E4CF31016}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65330A01-6FDE-4562-A1BD-776E4CF31016}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
