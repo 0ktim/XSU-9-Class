@@ -1,0 +1,158 @@
+<!DOCTYPE html> 
+<html lang="bg">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>СУ "Йордан Йовков" – Сливен</title>
+<style>
+:root {
+  --primary: #0052cc;
+  --primary-dark: #003d99;
+  --bg: #f4f7fb;
+  --text: #1e1e1e;
+  --light-text: #555;
+  --card: #ffffff;
+  --radius: 14px;
+  --shadow: 0 6px 18px rgba(0,0,0,0.1);
+  --transition: 0.3s ease;
+}
+body {margin:0; font-family:"Inter",sans-serif; background:var(--bg); color:var(--text);}
+.container {width:90%; max-width:1200px; margin:auto;}
+.header {background:#fff; box-shadow:var(--shadow); position:sticky; top:0; z-index:1000;}
+.header .container {display:flex; align-items:center; justify-content:space-between; padding:18px 0;}
+.logo {font-size:1.4rem; font-weight:700; color:var(--primary);}
+.nav a {margin-left:26px; text-decoration:none; color:var(--text); font-weight:500; transition:var(--transition);}
+.nav a:hover {color:var(--primary);}
+.hero {height:70vh; background:url('https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=1400&q=60') center/cover no-repeat; position:relative; display:flex; align-items:center;}
+.overlay {position:absolute; inset:0; background:rgba(0,0,0,0.45);}
+.hero-content {position:relative; color:#fff; max-width:600px; margin-left:20px;}
+.hero h1 {font-size:3rem; margin-bottom:12px;}
+.hero p {font-size:1.25rem; margin-bottom:22px;}
+.btn-primary {display:inline-block; background:var(--primary); color:#fff; padding:12px 26px; border-radius:var(--radius); text-decoration:none; transition:var(--transition);}
+.btn-primary:hover {background:var(--primary-dark);}
+.news-section {padding:60px 0;}
+.news-section h2 {text-align:center; margin-bottom:40px;}
+.news-grid {display:grid; grid-template-columns:repeat(auto-fill,minmax(320px,1fr)); gap:26px;}
+.news-card {background:var(--card); border-radius:var(--radius); box-shadow:var(--shadow); overflow:hidden; transition:var(--transition);}
+.news-card:hover {transform:translateY(-6px);}
+.news-card img {width:100%; height:200px; object-fit:cover;}
+.news-card .content {padding:20px;}
+.news-card h3 {margin-top:0; font-size:1.3rem; margin-bottom:8px; color:var(--primary-dark);}
+.news-card p {color:var(--light-text); font-size:0.95rem;}
+.about-section {padding:60px 0;}
+.about-grid {display:grid; grid-template-columns:1fr 1fr; gap:30px; align-items:center;}
+.about-text h2 {font-size:2rem; margin-bottom:20px;}
+.about-text p {color:var(--light-text); font-size:1rem; line-height:1.6;}
+.about-img {width:100%; border-radius:var(--radius); box-shadow:var(--shadow);}
+.contacts-section {padding:60px 0; background:#fff;}
+.contacts-section h2 {text-align:center; margin-bottom:40px;}
+.contacts-section p {text-align:center; color:var(--light-text); line-height:1.6;}
+.team-section {padding:60px 0; background:#f9f9f9;}
+.team-section h2 {text-align:center; margin-bottom:40px;}
+.team-grid {display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:26px;}
+.team-card {background:var(--card); border-radius:var(--radius); box-shadow:var(--shadow); padding:20px; text-align:center;}
+.team-card h3 {margin-top:0; font-size:1.3rem; margin-bottom:12px; color:var(--primary-dark);}
+.team-card p {color:var(--light-text); font-size:0.95rem;}
+.footer {background:#fff; text-align:center; padding:20px 0; margin-top:60px; border-top:1px solid #ddd;}
+</style>
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <div class="logo">СУ "Йордан Йовков"</div>
+    <nav class="nav">
+      <a href="#home">Начало</a>
+      <a href="#news">Новини</a>
+      <a href="#gallery">Галерия</a>
+      <a href="#about">За нас</a>
+      <a href="#contacts">Контакти</a>
+      <a href="#team">Екип</a>
+    </nav>
+  </div>
+</header>
+<section class="hero" id="home">
+  <div class="overlay"></div>
+  <div class="hero-content container">
+    <h1>Добре дошли в СУ "Йордан Йовков"</h1>
+    <p>Модерно училище с иновации, перспективи и бъдеще.</p>
+    <a href="#news" class="btn-primary">Вижте последните новини</a>
+  </div>
+</section>
+<section class="news-section" id="news">
+  <div class="container">
+    <h2>Последни новини</h2>
+    <div class="news-grid">
+      <article class="news-card">
+        <img src="https://interactivebg.com/wp-content/uploads/2022/05/5-1024x576.jpg" alt="STEM кабинет">
+        <div class="content">
+          <h3>Откриване на новия STEM кабинет</h3>
+          <p>Нашето училище откри най-модерния STEM център в региона, оборудван с роботика, 3D принтери и лабораторно оборудване.</p>
+        </div>
+      </article>
+      <article class="news-card">
+        <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=800&q=60" alt="EU Code Week">
+        <div class="content">
+          <h3>Участие в Европейската седмица на програмирането</h3>
+          <p>Ученици от 5 до 12 клас участваха в над 20 работилници, посветени на програмиране, игри и дигитална креативност.</p>
+        </div>
+      </article>
+      <article class="news-card">
+        <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=60" alt="Награда">
+        <div class="content">
+          <h3>Разработка на училищния подкаст</h3>
+          <p>Училището разработва подкаст в който ще се говорят различни интересни теми за Тинейджърите в днешните имена, програмиране и ще се канят гости от цяла българия за гости. Очаквайте скоро!</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+<section class="about-section" id="about">
+  <div class="container about-grid">
+    <div class="about-text">
+      <h2>За нашето училище</h2>
+      <p>СУ "Йордан Йовков" е водещо учебно заведение в Сливен с традиции, съчетани с модерни образователни практики. Училището предлага високотехнологична среда и развива ключови компетентности у своите ученици.</p>
+      <p>Нашият ангажимент е да подготвяме учениците за успех в динамичния свят на утрешния ден.</p>
+    </div>
+    <img src="https://scontent.fsof9-1.fna.fbcdn.net/v/t39.30808-6/497590076_3911069602466690_1497167179753944756_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=0b6b33&_nc_ohc=NKB2N3Ug2-MQ7kNvwH_NlV_&_nc_oc=AdnsnQ_0xkQk9RnE51ehHAA9oPmp8v7OinIMGvlnUC4yEa4obgt8kAf_qjUdV_zlTMU&_nc_zt=23&_nc_ht=scontent.fsof9-1.fna&_nc_gid=y8sLmvcQL7mr-D7QIGTQ_Q&oh=00_Afl0HyKbMlnDDs48l9Ndfbnmb06jHD4CREvUSiEpaaLb8g&oe=693F42DA" alt="school" class="about-img">
+  </div>
+</section>
+<section class="contacts-section" id="contacts">
+  <div class="container">
+    <h2>Контакти</h2>
+    <p>Гр. Сливен 8800<br>
+       кв."Българка"<br><br>
+       Телефони за връзка:<br>
+       Директор: 044/66 72 44<br>
+       Пом. директор: 044/66 76 84<br>
+       Гл. счетоводител: 044/66 74 68<br>
+       Факс: 044/66 76 84<br><br>
+       e-mail: info-2000114@edu.mon.bg
+    </p>
+  </div>
+</section>
+<section class="team-section" id="team">
+  <div class="container">
+    <h2>Екип</h2>
+    <div class="team-grid">
+      <div class="team-card">
+        <h3>Калоян Георгиев</h3>
+        <p>Калоян демонстрира изключителен професионализъм и мотивация в работата си, винаги стремейки се към иновации и развитие.</p>
+      </div>
+      <div class="team-card">
+        <h3>Никола Георгиев</h3>
+        <p>Никола е вдъхновяващ лидер, чиято креативност и упоритост мотивират всички около него да дават най-доброто от себе си.</p>
+      </div>
+      <div class="team-card">
+        <h3>Веселин Стоянов</h3>
+        <p>Веселин е надежден и целеустремен член на екипа, чиято компетентност и ентусиазъм се забелязват и ценят от всички.</p>
+      </div>
+    </div>
+  </div>
+</section>
+<footer class="footer">
+  <div class="container">
+    <p>© 2025 СУ "Йордан Йовков" - Сливен. Дизайн: Калоян Георгиев.</p>
+  </div>
+</footer>
+</body>
+</html>
