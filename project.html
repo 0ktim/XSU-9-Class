@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Училищен вестник - Йордан Йовков</title>
+    <style>
+        /* Основни настройки и нулиране */
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            overflow-x: hidden;
+        }
+
+        /* ХЕДЪР */
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            box-shadow: 0 4px 20px rgba(102,126,234,0.3);
+        }
+
+        .header-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+            letter-spacing: 1px;
+        }
+
+        nav ul { display: flex; list-style: none; gap: 2rem; }
+
+        nav a {
+            color: white;
+            font-weight: 500;
+            text-decoration: none;
+            transition: 0.3s;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+        }
+
+        nav a:hover { background: rgba(255,255,255,0.2); transform: translateY(-2px); }
+
+        /* HERO */
+        .hero {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 50%, #f093fb 100%);
+            min-height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 4rem 2rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 1px, transparent 1px);
+            background-size: 50px 50px;
+            animation: moveBackground 20s linear infinite;
+        }
+
+        @keyframes moveBackground {
+            0% { transform: translate(0,0); }
+            100% { transform: translate(50px,50px); }
+        }
+
+        .hero-content { position: relative; z-index: 1; max-width: 800px; }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            color: white;
+            margin-bottom: 1rem;
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.3);
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            color: rgba(255,255,255,0.95);
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        /* СТАТИИ */
+        .articles-section {
+            padding: 5rem 2rem;
+            background: linear-gradient(to bottom, #f8f9ff 0%, #ffffff 100%);
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.5rem;
+            margin-bottom: 3rem;
+            color: #667eea;
+            padding-bottom: 1rem;
+            position: relative;
+        }
+
+        .section-title::after {
+            content: '';
+            width: 100px;
+            height: 4px;
+            background: linear-gradient(90deg, #667eea, #764ba2);
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        .articles-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+            gap: 2rem;
+        }
+
+        .article-card {
+            background: white;
+            padding: 2rem;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(102,126,234,0.1);
+            transition: 0.3s;
+            border: 2px solid transparent;
+        }
+
+        .article-card:hover {
+            transform: translateY(-10px);
+            border-color: #667eea;
+            box-shadow: 0 15px 40px rgba(102,126,234,0.2);
+        }
+
+        .article-card h3 { color: #667eea; font-size: 1.5rem; margin-bottom: 1rem; }
+        .article-date { color: #764ba2; font-weight: 600; margin-bottom: 1rem; }
+        .article-card p { color: #555; line-height: 1.8; margin-bottom: 1.5rem; }
+
+        .read-more {
+            color: #667eea;
+            border: 2px solid #667eea;
+            padding: 0.5rem 1rem;
+            border-radius: 8px;
+            display: inline-block;
+            transition: 0.3s;
+        }
+
+        .read-more:hover { background: #667eea; color: white; transform: translateX(5px); }
+
+        /* ЕКИП */
+        .team-section {
+            padding: 5rem 2rem;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+        }
+
+        .team-container { max-width: 1200px; margin: 0 auto; }
+
+        .team-section .section-title { color: white; }
+        .team-section .section-title::after { background: white; }
+
+        .team-intro {
+            max-width: 800px;
+            margin: 0 auto 3rem auto;
+            text-align: center;
+            font-size: 1.2rem;
+            line-height: 1.8;
+        }
+
+        .team-members {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+            gap: 2rem;
+        }
+
+        .team-member {
+            background: rgba(255,255,255,0.1);
+            padding: 2rem;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            border: 2px solid rgba(255,255,255,0.2);
+            transition: 0.3s;
+            text-align: center;
+        }
+
+        .team-member:hover { background: rgba(255,255,255,0.2); transform: scale(1.05); }
+
+        .team-member h3 { font-size: 1.5rem; margin-bottom: 0.5rem; }
+        .team-member .role { color: #f093fb; font-weight: 600; margin-bottom: 1rem; }
+        .team-member p { font-size: 0.95rem; line-height: 1.6; }
+
+        /* ФУТЪР */
+        footer {
+            background: linear-gradient(135deg, #2d3561 0%, #1e2139 100%);
+            color: white;
+            padding: 3rem 2rem 1.5rem;
+        }
+
+        .footer-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: grid;
+            gap: 3rem;
+            grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
+        }
+
+        .footer-section h3 { color: #667eea; margin-bottom: 1rem; }
+        .footer-section p, .footer-section a {
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+            line-height: 1.8;
+            transition: 0.3s;
+        }
+
+        .footer-section a:hover { color:#667eea; }
+
+        .footer-bottom {
+            margin-top: 2rem;
+            padding-top: 2rem;
+            text-align: center;
+            color: rgba(255,255,255,0.6);
+            border-top: 1px solid rgba(255,255,255,0.1);
+        }
+
+        /* Mobile */
+        @media (max-width: 768px) {
+            .header-container { flex-direction: column; gap: 1rem; }
+            nav ul { flex-direction: column; text-align: center; gap: 0.5rem; }
+            .hero h1 { font-size: 2rem; }
+            .hero p { font-size: 1rem; }
+            .articles-container, .team-members { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- ХЕДЪР -->
+<header>
+    <div class="header-container">
+        <div class="logo">Училищен вестник „Йордан Йовков“</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Начало</a></li>
+                <li><a href="#news">Новини</a></li>
+                <li><a href="#interviews">Интервюта</a></li>
+                <li><a href="#gallery">Галерия</a></li>
+                <li><a href="#about">За нас</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<!-- HERO -->
+<section class="hero" id="home">
+    <div class="hero-content">
+        <h1>Добре дошли в училищния вестник на СУ „Йордан Йовков“ – Сливен</h1>
+        <p>Място за новини, вдъхновение, събития и постижения!</p>
+    </div>
+</section>
+
+<!-- СТАТИИ -->
+<section class="articles-section" id="news">
+    <h2 class="section-title">Последни статии</h2>
+
+    <div class="articles-container">
+
+        <article class="article-card">
+            <h3>Откриване на STEM център</h3>
+            <div class="article-date">6 ноември 2025</div>
+            <p>
+                В СУ „Йордан Йовков“ бе открит нов STEM център „Открий, създай, иновирай“.  
+                Пространство, което вдъхновява учениците да мечтаят смело, да изследват и  
+                да развиват уменията си чрез технологии, наука, изкуства и сътрудничество.
+            </p>
+            <a href="#" class="read-more">Прочети повече →</a>
+        </article>
+
+        <article class="article-card">
+            <h3>Участие в Европейската седмица на програмирането</h3>
+            <div class="article-date">Ноември 2025</div>
+            <p>
+                Ученици от специалност „Приложен програмист“ участваха в инициативата  
+                „Аз, Програмистът“ на SoftUni и Microsoft България. Лектор беше  
+                Йордан Даракчиев – експерт по изкуствен интелект и програмиране.
+            </p>
+            <a href="#" class="read-more">Прочети повече →</a>
+        </article>
+
+        <article class="article-card">
+            <h3>Награден ученик от състезание</h3>
+            <div class="article-date">Декември 2025</div>
+            <p>
+                Ученик от нашето училище беше отличен в национално състезание – поредно  
+                доказателство за трудолюбие, дисциплина и стремеж към развитие.
+            </p>
+            <a href="#" class="read-more">Прочети повече →</a>
+        </article>
+
+    </div>
+</section>
+
+<!-- ЕКИП -->
+<section class="team-section" id="about">
+    <div class="team-container">
+        <h2 class="section-title">Нашият екип</h2>
+
+        <p class="team-intro">
+            Екипът на училищния вестник обединява журналисти, фотографи и дизайнери,  
+            които разказват историите на училището с професионализъм, вдъхновение  
+            и креативно мислене.
+        </p>
+
+        <div class="team-members">
+
+            <div class="team-member">
+                <h3>Венцислав Колев</h3>
+                <div class="role">Журналист</div>
+                <p>Журналист с 20 години опит, който представя училищните истории с  
+                дълбочина и човешки поглед.</p>
+            </div>
+
+            <div class="team-member">
+                <h3>Николай Станчев</h3>
+                <div class="role">Фотограф</div>
+                <p>Фотограф с 15 години опит, снимал едни от най-известните личности  
+                и ключови събития в страната.</p>
+            </div>
+
+            <div class="team-member">
+                <h3>Мартин Маринчев</h3>
+                <div class="role">Дизайнер</div>
+                <p>Дизайнер с над 23 години професионален стаж и силно визуално мислене,  
+                създаващо впечатляващи материали.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ФУТЪР -->
+<footer>
+    <div class="footer-container">
+
+        <div class="footer-section">
+            <h3>Контакти</h3>
+            <p>гр. Сливен 8800</p>
+            <p>кв. „Българка“</p>
+            <p>Email: info-2000114@edu.mon.bg</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Телефони</h3>
+            <p>Директор: 044 / 66 72 44</p>
+            <p>Пом. директор: 044 / 66 76 84</p>
+            <p>Гл. счетоводител: 044 / 66 74 68</p>
+            <p>Факс: 044 / 66 76 84</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Екип</h3>
+            <p>Венцислав Колев – журналист</p>
+            <p>Николай Станчев – фотограф</p>
+            <p>Мартин Маринчев – дизайнер</p>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        © 2025 Училищен вестник „Йордан Йовков“ – Сливен. Всички права запазени.
+    </div>
+</footer>
+
+</body>
+</html>
