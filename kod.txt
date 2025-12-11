@@ -6,12 +6,12 @@
   <title>Училищен вестник - Йордан Йовков</title>
   <style>
     :root{
-      --bg: linear-gradient(135deg, #3b82f6 0%, #9333ea 100%);
-      --card: #f0f4ff; /* цвят за всички бели квадратчета */
-      --muted: #6b7280;
-      --accent: #4f46e5;
-      --accent-2: #3b82f6;
-      --shadow: 0 6px 18px rgba(15,24,40,0.06);
+      --bg: linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%);
+      --card: linear-gradient(135deg, #ffffff 0%, #cde6ff 100%);
+      --muted: #52627a;
+      --accent: #1e90ff;
+      --accent-2: #0bb3f8;
+      --shadow: 0 6px 18px rgba(0,0,0,0.08);
       --radius: 12px;
       --container: 1100px;
       --gap: 20px;
@@ -19,36 +19,203 @@
       color-scheme: light;
     }
 
-    html,body{height:100%; margin:0; padding:30px 18px; display:flex; justify-content:center; background:var(--bg); color:#0f172a; line-height:1.45;}
-    .wrap{width:100%; max-width:var(--container);}
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 30px 18px;
+      display: flex;
+      justify-content: center;
+      background: var(--bg);
+      color: #0f172a;
+      line-height: 1.45;
+    }
 
-    header.site-header{display:flex; align-items:center; justify-content:space-between; gap:var(--gap); margin-bottom:26px; background:var(--card); padding:12px; border-radius:var(--radius);}
-    .brand{display:flex; gap:14px; align-items:center;}
-    .logo{width:64px; height:64px; border-radius:10px; background:none; display:flex; align-items:center; justify-content:center; color:white; font-weight:700; font-size:18px; flex:0 0 64px;}
-    .site-title{font-size:20px; font-weight:700; line-height:1;}
-    .site-sub{font-size:12px; color:#000;}
-    nav.main-nav{display:flex; gap:10px; align-items:center; background:transparent; padding:8px;}
-    nav.main-nav a{text-decoration:none; color:#000 !important; padding:8px 12px; border-radius:8px; font-weight:600; font-size:14px;}
-    nav.main-nav a:hover{color:var(--accent); background:rgba(15,108,255,0.06);}
+    .wrap {
+      width: 100%;
+      max-width: var(--container);
+    }
 
-    .articles{display:grid; grid-template-columns:repeat(3,1fr); gap:18px; margin-bottom:28px;}
-    .article{background:var(--card); border-radius:12px; padding:14px; box-shadow:var(--shadow); display:flex; flex-direction:column;}
-    .article h3{margin:0 0 8px 0; font-size:16px;}
-    .article p{margin:0; font-size:14px; color:var(--muted); flex:1;}
-    .article .meta{margin-top:12px; font-size:13px; color:var(--muted); display:flex; gap:10px; align-items:center;}
-    .article.featured{grid-column:span 2;}
+    header.site-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--gap);
+      margin-bottom: 26px;
+      background: var(--card);
+      padding: 12px;
+      border-radius: var(--radius);
+    }
 
-    .team{display:grid; grid-template-columns:repeat(3,1fr); gap:16px; margin-bottom:28px;}
-    .member{background:var(--card); padding:12px; border-radius:12px; box-shadow:var(--shadow); text-align:center;}
-    .member h4{margin:8px 0 4px 0; font-size:15px;}
-    .member p{margin:0; color:var(--muted); font-size:13px;}
+    .brand {
+      display: flex;
+      gap: 14px;
+      align-items: center;
+    }
 
-    footer.site-footer{margin-top:6px; padding:20px; border-radius:12px; background:var(--card); box-shadow:var(--shadow); display:flex; justify-content:space-between; gap:20px; flex-wrap:wrap;}
-    .contacts, .authors{min-width:220px;}
-    .small{font-size:13px; color:var(--muted);}
+    .brand img {
+      width: 64px;
+      height: 64px;
+      border-radius: 10px;
+      object-fit: contain;
+      flex-shrink: 0;
+    }
 
-    @media (max-width:1000px){.articles{grid-template-columns:repeat(2,1fr)} .article.featured{grid-column:auto} .team{grid-template-columns:repeat(2,1fr)}}
-    @media (max-width:640px){body{padding:18px} .articles{grid-template-columns:1fr} .team{grid-template-columns:1fr} nav.main-nav{flex-wrap:wrap} .site-title{font-size:18px}}
+    .site-title {
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 1;
+    }
+
+    .site-sub {
+      font-size: 12px;
+      color: #000;
+    }
+
+    nav.main-nav {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      background: transparent;
+      padding: 8px;
+    }
+
+    nav.main-nav a {
+      text-decoration: none;
+      color: #000 !important;
+      padding: 8px 12px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 14px;
+    }
+
+    nav.main-nav a:hover {
+      color: var(--accent);
+      background: rgba(15, 108, 255, 0.06);
+    }
+
+    .articles {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+      margin-bottom: 28px;
+    }
+
+    .article {
+      background: var(--card);
+      border-radius: 12px;
+      padding: 14px;
+      box-shadow: var(--shadow);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .article h3 {
+      margin: 0 0 8px 0;
+      font-size: 16px;
+    }
+
+    .article p {
+      margin: 0;
+      font-size: 14px;
+      color: var(--muted);
+      flex: 1;
+    }
+
+    .article .meta {
+      margin-top: 12px;
+      font-size: 13px;
+      color: var(--muted);
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+
+    .article.featured {
+      grid-column: span 2;
+    }
+
+    .team {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin-bottom: 28px;
+    }
+
+    .member {
+      background: linear-gradient(135deg, #f0f8ff 0%, #d0eaff 100%);
+      padding: 12px;
+      border-radius: 12px;
+      box-shadow: var(--shadow);
+      text-align: center;
+    }
+
+    .member h4 {
+      margin: 8px 0 4px 0;
+      font-size: 15px;
+    }
+
+    .member p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    footer.site-footer {
+      margin-top: 6px;
+      padding: 20px;
+      border-radius: 12px;
+      background: linear-gradient(135deg, #e0f0ff 0%, #c0e0ff 100%);
+      box-shadow: var(--shadow);
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .contacts, .authors {
+      min-width: 220px;
+    }
+
+    .small {
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    @media (max-width: 1000px) {
+      .articles {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .article.featured {
+        grid-column: auto;
+      }
+
+      .team {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 640px) {
+      body {
+        padding: 18px;
+      }
+
+      .articles {
+        grid-template-columns: 1fr;
+      }
+
+      .team {
+        grid-template-columns: 1fr;
+      }
+
+      nav.main-nav {
+        flex-wrap: wrap;
+      }
+
+      .site-title {
+        font-size: 18px;
+      }
+    }
   </style>
 </head>
 <body>
@@ -56,7 +223,7 @@
 
     <header class="site-header">
       <div class="brand">
-        <div class="logo" aria-hidden="true"></div>
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAABH0lEQVR4nO3YsQnCMBBA0eLq/f4WQkxG+FphCWkiEGfoHp9qJxo9BvscNQQsDRAO1RchxQXY8vlM1rgMuqB3fuYjyoQmTsJzY6N+X9fXOLg3VZq9WYAJvBy0s0nqRjB6AAESYGYAKxl8BIK9r7hAcCZkOaTt57HnwqTOE8CyFyPgBEBJIzA2UAH4ysCMJFqAwDehgKsAg2g3h3MG4+8XsEjwHkEgByCypwJBAA70J8CdAAVYcgK8BR8k6cgBJA3IkAC0SYMLOAY+kEYAXEnSAAsSqYQs4Bz6QRgBcSdIACxKZhCzgHPpBGAFxJ0gALSjmRo06F1Ve2EoZKfn1R6IAAAAAElFTkSuQmCC" alt="Лого СУ Йордан Йовков" />
         <div>
           <div class="site-title">Училищен вестник - Йордан Йовков</div>
           <div class="site-sub">СУ "Йордан Йовков" — Сливен</div>
@@ -124,3 +291,5 @@
   </div>
 </body>
 </html>
+
+
